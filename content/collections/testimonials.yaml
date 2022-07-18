@@ -1,0 +1,9 @@
+title: Testimonials
+template: testimonials/show
+layout: layout
+revisions: false
+route: './Testimonials/{slug}'
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private

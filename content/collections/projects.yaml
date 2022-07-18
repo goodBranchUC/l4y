@@ -1,0 +1,9 @@
+title: Projects
+template: projects/show
+layout: layout
+revisions: false
+route: '/Projects/{slug}'
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
