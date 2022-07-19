@@ -20,10 +20,3 @@ use App\Http\Controllers\Request;
 //    'title' => 'Example'
 // ]);
 
-Route::get('/', [HomeController::class, 'index'])->name('home');
-Route::get('/about', [HomeController::class, 'about'])->name('about');
-Route::get('/services', [HomeController::class, 'services'])->name('services');
-Route::get('/projects', [HomeController::class, 'projects'])->name('projects');
-// Route::get('/projects/{id}', [HomeController::class, 'projects'])->name('projects');
-Route::get('/testimonials', [HomeController::class, 'testimonials'])->name('testimonials');
-// Route::get('/testimonials/{id}', [HomeController::class, 'testimonials'])->name('testimonials');
