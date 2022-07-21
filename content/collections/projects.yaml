@@ -1,6 +1,7 @@
 title: Projects
 template: projects/show
 layout: layout
+mount: b9316545-e3eb-4033-ab97-09628716af74
 revisions: false
 route: '/projects/{slug}'
 sort_dir: asc
