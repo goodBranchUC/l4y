@@ -20,3 +20,4 @@ use App\Http\Controllers\Request;
 //    'title' => 'Example'
 // ]);
 
+// Let statamic handle the pages.

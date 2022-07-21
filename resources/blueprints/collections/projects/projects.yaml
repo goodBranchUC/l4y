@@ -17,21 +17,7 @@ sections:
           display: Content
           localizable: true
       -
-        handle: author
-        field:
-          type: users
-          display: Author
-          default: current
-          localizable: true
-          max_items: 1
-      -
-        handle: template
-        field:
-          type: template
-          display: Template
-          localizable: true
-      -
-        handle: assets_field
+        handle: photo
         field:
           mode: list
           container: assets
