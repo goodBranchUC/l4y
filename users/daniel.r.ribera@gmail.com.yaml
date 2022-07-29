@@ -13,3 +13,10 @@ preferences:
       columns:
         - title
         - last_name
+  favorites:
+    -
+      name: 'Pages ‹ Collections'
+      url: collections/pages
+    -
+      name: 'Home ‹ Pages ‹ Collections'
+      url: collections/pages/entries/home
