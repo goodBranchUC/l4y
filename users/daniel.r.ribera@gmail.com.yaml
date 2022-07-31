@@ -20,3 +20,9 @@ preferences:
     -
       name: 'Home ‹ Pages ‹ Collections'
       url: collections/pages/entries/home
+    -
+      name: 'Cache Manager'
+      url: utilities/cache
+    -
+      name: 'Cache Manager'
+      url: utilities/cache
