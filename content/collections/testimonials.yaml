@@ -1,6 +1,7 @@
 title: Testimonials
 template: testimonials/show
 layout: layout
+mount: edc6d2ad-614c-498f-bd44-ce2e4bb8230c
 revisions: false
 route: './Testimonials/{slug}'
 sort_dir: asc

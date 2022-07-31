@@ -2,3 +2,27 @@ name: Daniel
 super: true
 id: 7ffff671-2f8c-416c-8c2c-d2408e0f5aff
 password_hash: $2y$10$sKiriuGFjWbWCPN3w16MUeJM7HfR9sBlfuo9HD.97uN58AhcKjmFS
+preferences:
+  collections:
+    projects:
+      columns:
+        - title
+        - photo
+        - city
+    testimonials:
+      columns:
+        - title
+        - last_name
+  favorites:
+    -
+      name: 'Pages ‹ Collections'
+      url: collections/pages
+    -
+      name: 'Home ‹ Pages ‹ Collections'
+      url: collections/pages/entries/home
+    -
+      name: 'Cache Manager'
+      url: utilities/cache
+    -
+      name: 'Cache Manager'
+      url: utilities/cache

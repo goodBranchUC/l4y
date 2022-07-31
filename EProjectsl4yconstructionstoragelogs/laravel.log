@@ -1,0 +1,33 @@
+[2022-07-31 16:03:02] local.ERROR: Command "cache:clear1~" is not defined.
+
+Did you mean one of these?
+    cache:clear
+    cache:forget
+    cache:table
+    config:clear
+    debugbar:clear
+    event:clear
+    optimize:clear
+    queue:clear
+    route:clear
+    view:clear {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"cache:clear1~\" is not defined.
+
+Did you mean one of these?
+    cache:clear
+    cache:forget
+    cache:table
+    config:clear
+    debugbar:clear
+    event:clear
+    optimize:clear
+    queue:clear
+    route:clear
+    view:clear at /mnt/e/Projects/l4yconstruction/vendor/symfony/console/Application.php:692)
+[stacktrace]
+#0 /mnt/e/Projects/l4yconstruction/vendor/symfony/console/Application.php(259): Symfony\\Component\\Console\\Application->find()
+#1 /mnt/e/Projects/l4yconstruction/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#2 /mnt/e/Projects/l4yconstruction/vendor/laravel/framework/src/Illuminate/Console/Application.php(102): Symfony\\Component\\Console\\Application->run()
+#3 /mnt/e/Projects/l4yconstruction/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#4 /mnt/e/Projects/l4yconstruction/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
