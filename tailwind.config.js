@@ -1,3 +1,4 @@
+
 module.exports = {
   content: [
     './resources/**/*.antlers.html',
@@ -5,10 +6,12 @@ module.exports = {
     './resources/**/*.vue',
     './content/**/*.md'
   ],
-  theme: {
-    extend: {},
-  },
   plugins: [
     require('@tailwindcss/typography'),
+    require('@tailwindcss/aspect-ratio'),
+    require('@tailwindcss/forms'),
   ],
-}
+  theme: {
+      
+   },
+  }
